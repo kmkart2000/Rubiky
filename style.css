@@ -36,6 +36,8 @@ body {
     letter-spacing: 5px;
 }
 
+#carouselExampleSlidesOnly {margin-top: 80px;}
+
 #PromoDiv img {
     margin-top: 5px;
     width: 100%;
