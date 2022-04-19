@@ -13,17 +13,29 @@
 </head>
 
 <body>
-    <ul class="nav justify-content-center fixed-top">
-        <li> <img src="image/LogoRubik's_cube.png" alt="LogoImage" width="50px"></li>
-        <li>
-            <h1>Rubiky</h1>
-        </li>
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#ProductDiv">E-commerce</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#TutorialDiv">How to solve</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#AboutDiv">About</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#ContactDiv">Contact</a></li>
-    </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/LogoRubik's_cube.png" alt="LogoImage" width="50px">Rubiky</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#ProductDiv">E-commerce</a>
+                    <a class="nav-link" href="#TutorialDiv">How to solve</a>
+                    <a class="nav-link" href="#AboutDiv">About </a>
+                    <a class="nav-link" href="#ContactDiv">Contact </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -40,10 +52,10 @@
     <div id="ProductDiv">
         <h1>E-commerce</h1>
         <div id="Product1" class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="image/MoYu-3x3x3.png" width="100%">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h2>MoYu 3x3x3 meilong magic cube</h2>
                 <p>Description: MoYu 3x3x3 meilong magic cube stickerless cubo magico profissional meilong speed cubes
                     educational toys for kids moyu Hungarian.</p>
@@ -63,7 +75,7 @@
         </div>
         <hr>
         <div id="Product2" class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h2>MoYu 2x2 meilong magic cube</h2>
                 <p>Moyu 2x2 Mini Pocket Cube MeiLong Speed 2x2x2 Magic Cube Profession Cube Education Toy For Children
                     Cube Cubo.</p>
@@ -80,7 +92,7 @@
                 <h3>Discount:5 SR</h3>
                 <a href="whatsapp://send?abid=phonenumber&text=Hello%2C%20World!">Send Message To whatsapp</a>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="image/MoYu-2x2x2.png" width="100%">
             </div>
         </div>
@@ -88,7 +100,7 @@
     <div id="TutorialDiv">
         <h1>How to solve</h1>
         <div id="TutorialDiv1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KGvQRaK1mvs"
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KGvQRaK1mvs"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -96,7 +108,7 @@
         </div>
         <br>
         <div id="TutorialDiv2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GANnG5a19kg"
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/GANnG5a19kg"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -106,7 +118,7 @@
     <div id="AboutDiv">
         <h1>About Rubic cube</h1>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <p>“The Rubik's Cube is a 3D mechanical puzzle created in 1974 by Hungarian sculptor and professor of
                     architecture Erno Rubik. As of January 2009, 350,000,000 cubes have been sold worldwide making it
                     the world's best-selling puzzle. Mass shooting is the world's best-selling game.
@@ -116,23 +128,23 @@
                     40th anniversary in 2014.”
                 </p>
             </div>
-            <div class="col-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/X0JV3DYS8EM"
+            <div class="col-lg-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/X0JV3DYS8EM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kmrZyByO8Qc"
+            <div class="col-lg-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/kmrZyByO8Qc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <h4>Scrambled</h>
             </div>
-            <div class="col-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9stVl92b0-U"
+            <div class="col-lg-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/9stVl92b0-U"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -173,19 +185,11 @@
         </div>
     </div>
     <footer>
-        <ul class="nav justify-content-center ">
-            <li> <img src="image/LogoRubik's_cube.png" alt="LogoImage" width="50px"></li>
-            <li>
-                <h1>Rubiky</h1>
-            </li>
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#ProductDiv">E-commerce</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#TutorialDiv">How to solve</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#AboutDiv">About</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#ContactDiv">Contact</a></li>
-        </ul>
-        Copyright © 2022 All rights reserved<br>kmkart2000
+        <p style="text-align: center;">
+            Copyright © 2022 All rights reserved<br>kmkart2000
+        </p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
