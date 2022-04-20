@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <!-- https://michalsnik.github.io/aos/  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Rubiky's Cube</title>
 </head>
@@ -48,17 +49,16 @@
         </div>
     </div>
 
+    <div id="PromoDiv" data-aos="fade-down">
 
-    <div id="PromoDiv">
-
-        <h1>We Deliver On Time</h1>
+        <h1 class="animate__backInUp">We Deliver On Time</h1>
         <h4>Our business is to make sure you GET<br> The right information at The right time</h4>
 
 
     </div>
-    <div id="ProductDiv">
+    <div id="ProductDiv" >
         <h1>E-commerce</h1>
-        <div id="Product1" class="row">
+        <div id="Product1" class="row" data-aos="fade-up" >
             <div class="col-lg-6">
                 <img src="image/MoYu-3x3x3.png" width="100%">
             </div>
@@ -81,7 +81,7 @@
             </div>
         </div>
         <hr>
-        <div id="Product2" class="row">
+        <div id="Product2" class="row" data-aos="fade-up">
             <div class="col-lg-6">
                 <h2>MoYu 2x2 meilong magic cube</h2>
                 <p>Moyu 2x2 Mini Pocket Cube MeiLong Speed 2x2x2 Magic Cube Profession Cube Education Toy For Children
@@ -106,7 +106,7 @@
     </div>
     <div id="TutorialDiv">
         <h1>How to solve</h1>
-        <div id="TutorialDiv1">
+        <div id="TutorialDiv1" data-aos="fade-up" >
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/KGvQRaK1mvs"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -114,7 +114,7 @@
             <h3>How to Solve a 3x3 Rubik's Cube In No Time | The Easiest Tutorial </h3>
         </div>
         <br>
-        <div id="TutorialDiv2">
+        <div id="TutorialDiv2" data-aos="fade-up" >
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/GANnG5a19kg"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -122,7 +122,7 @@
             <h3>Learn How to Solve a 2x2 Rubik's Cube (Beginner Tutorial) </h3>
         </div>
     </div>
-    <div id="AboutDiv">
+    <div id="AboutDiv" data-aos="fade-up" >
         <h1>About Rubic cube</h1>
         <div class="row">
             <div class="col-lg-6">
@@ -157,7 +157,7 @@
                     allowfullscreen></iframe>
             </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up" >
             <div class="col-lg-6">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/kmrZyByO8Qc"
                     title="YouTube video player" frameborder="0"
@@ -175,7 +175,7 @@
             </div>
         </div>
     </div>
-    <div id="ContactDiv">
+    <div id="ContactDiv" data-aos="fade-up" >
         <h1>Contac</h1>
         <form>
             <div class="mb-3">
@@ -199,15 +199,18 @@
             <button type="submit" class="btn btn-primary">Contact Us</button>
         </form>
         <br>
-        <div id="GooglMapDiv">
+        <div id="GooglMapDiv" data-aos="fade-up" >
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6105.504648886512!2d49.9971066264285!3d26.567872320917388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34af291e432d390a!2z2YXYsdmD2LIg2KfZhNmD2YjYq9ixINmE2YTZg9mF2KjZitmI2KrYsSDZiCDYp9mE2LXZitin2YbYqQ!5e1!3m2!1sar!2ssa!4v1650336459815!5m2!1sar!2ssa"
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-    <footer>
-        <video class="video-react-video" muted="" preload="auto" loop="" playsinline="" autoplay="" src="Video/rubiks-hero-banner.mp4" tabindex="-1" width=100% ><source src=""  ></video>
+    <footer data-aos="fade-up" >
+        <video class="video-react-video" muted="" preload="auto" loop="" playsinline="" autoplay=""
+            src="Video/rubiks-hero-banner.mp4" tabindex="-1" width=100%>
+            <source src="">
+        </video>
 
         <p style="text-align: center;">
             Copyright © 2022 All rights reserved<br>kmkart2000
@@ -217,6 +220,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- https://michalsnik.github.io/aos/  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
